@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<netguard>
+  <application>
+    <setting key="subnet" type="boolean" value="true" />
+    <setting key="reload_onconnectivity" type="boolean" value="true" />
+    <setting key="disable_on_call" type="boolean" value="false" />
+    <setting key="dns2" type="string" value="25.25.1.1" />
+    <setting key="filter_udp" type="boolean" value="true" />
+    <setting key="dark_theme" type="boolean" value="true" />
+    <setting key="whitelist_roaming" type="boolean" value="false" />
+    <setting key="lockdown_other" type="boolean" value="true" />
+    <setting key="lan" type="boolean" value="false" />
+    <setting key="lockdown" type="boolean" value="true" />
+    <setting key="national_roaming" type="boolean" value="true" />
+    <setting key="pcap_file_size" type="string" value="2" />
+    <setting key="whitelist_other" type="boolean" value="false" />
+    <setting key="unmetered_4g" type="boolean" value="true" />
+    <setting key="hint_push" type="boolean" value="false" />
+    <setting key="pcap_record_size" type="string" value="64" />
+    <setting key="version" type="integer" value="10004" />
+    <setting key="traffic_blocked" type="boolean" value="true" />
+    <setting key="hosts_url" type="string" value="https://www.netguard.me/hosts" />
+    <setting key="install" type="boolean" value="true" />
+    <setting key="use_metered" type="boolean" value="true" />
+    <setting key="nodoze" type="boolean" value="false" />
+    <setting key="stats_frequency" type="string" value="1000" />
+    <setting key="lockdown_wifi" type="boolean" value="true" />
+    <setting key="eu_roaming" type="boolean" value="false" />
+    <setting key="show_top" type="boolean" value="false" />
+    <setting key="notify_access" type="boolean" value="true" />
+    <setting key="log_app" type="boolean" value="true" />
+    <setting key="log" type="boolean" value="true" />
+    <setting key="show_stats" type="boolean" value="false" />
+    <setting key="show_system" type="boolean" value="true" />
+    <setting key="enabled" type="boolean" value="true" />
+    <setting key="manage_system" type="boolean" value="true" />
+    <setting key="hint_usage" type="boolean" value="false" />
+    <setting key="stats_samples" type="string" value="90" />
+    <setting key="screen_other" type="boolean" value="false" />
+    <setting key="initialized" type="boolean" value="true" />
+    <setting key="theme" type="string" value="teal" />
+    <setting key="whitelist_wifi" type="boolean" value="false" />
+    <setting key="unmetered_2g" type="boolean" value="true" />
+    <setting key="use_hosts" type="boolean" value="true" />
+    <setting key="validate" type="string" value="www.kaspersky.com" />
+    <setting key="handover" type="boolean" value="false" />
+    <setting key="hint_system" type="boolean" value="false" />
+    <setting key="screen_on" type="boolean" value="true" />
+    <setting key="update_check" type="boolean" value="true" />
+    <setting key="socks5_enabled" type="boolean" value="true" />
+    <setting key="debug_iab" type="boolean" value="false" />
+    <setting key="ip6" type="boolean" value="true" />
+    <setting key="filter" type="boolean" value="true" />
+    <setting key="auto_enable" type="string" value="0" />
+    <setting key="screen_delay" type="string" value="0" />
+    <setting key="watchdog" type="string" value="65535" />
+    <setting key="hint_whitelist" type="boolean" value="false" />
+    <setting key="traffic_allowed" type="boolean" value="true" />
+    <setting key="loglevel" type="string" value="6" />
+    <setting key="organization" type="boolean" value="true" />
+    <setting key="screen_wifi" type="boolean" value="false" />
+    <setting key="tethering" type="boolean" value="false" />
+    <setting key="track_usage" type="boolean" value="true" />
+    <setting key="unmetered_3g" type="boolean" value="true" />
+  </application>
+  <wifi>
+    <setting key="com.google.android.apps.maps" type="boolean" value="true" />
+    <setting key="com.oplus.beaconlink" type="boolean" value="true" />
+    <setting key="com.google.android.apps.adm" type="boolean" value="true" />
+    <setting key="com.android.bluetoothmidiservice" type="boolean" value="true" />
+    <setting key="com.google.android.adservices.api" type="boolean" value="true" />
+    <setting key="com.oplus.multiapp" type="boolean" value="true" />
+    <setting key="com.google.android.gms" type="boolean" value="true" />
+    <setting key="com.oplus.framework_bluetooth.overlay" type="boolean" value="true" />
+    <setting key="nobody" type="boolean" value="true" />
+    <setting key="com.google.android.cellbroadcastreceiver" type="boolean" value="true" />
+    <setting key="com.google.android.cellbroadcastservice" type="boolean" value="true" />
+    <setting key="com.google.android.networkstack.tethering" type="boolean" value="true" />
+    <setting key="com.android.providers.downloads" type="boolean" value="true" />
+    <setting key="com.video.fun.app" type="boolean" value="true" />
+    <setting key="android.gps" type="boolean" value="true" />
+    <setting key="com.facebook.katana" type="boolean" value="true" />
+    <setting key="com.android.bluetooth.oplus.overlay" type="boolean" value="true" />
+    <setting key="com.android.bluetooth" type="boolean" value="true" />
+    <setting key="com.coloros.childrenspace" type="boolean" value="true" />
+    <setting key="com.oplus.locationproxy" type="boolean" value="true" />
+    <setting key="com.mediatek.lbs.em2.ui" type="boolean" value="true" />
+    <setting key="com.android.chrome" type="boolean" value="true" />
+    <setting key="com.android.providers.downloads.ui" type="boolean" value="true" />
+    <setting key="com.google.android.networkstack" type="boolean" value="true" />
+    <setting key="com.android.providers.media" type="boolean" value="true" />
+    <setting key="com.android.mtp" type="boolean" value="true" />
+    <setting key="com.facebook.services" type="boolean" value="true" />
+    <setting key="com.android.fmradio" type="boolean" value="true" />
+    <setting key="com.oplus.screenrecorder" type="boolean" value="true" />
+    <setting key="com.google.android.gsf" type="boolean" value="true" />
+  </wifi>
+  <mobile>
+    <setting key="com.google.android.apps.maps" type="boolean" value="true" />
+    <setting key="com.oplus.beaconlink" type="boolean" value="true" />
+    <setting key="com.google.android.apps.adm" type="boolean" value="true" />
+    <setting key="com.android.bluetoothmidiservice" type="boolean" value="true" />
+    <setting key="com.oplus.multiapp" type="boolean" value="true" />
+    <setting key="com.google.android.gms" type="boolean" value="true" />
+    <setting key="com.oplus.framework_bluetooth.overlay" type="boolean" value="true" />
+    <setting key="com.microsoft.emmx" type="boolean" value="true" />
+    <setting key="nobody" type="boolean" value="true" />
+    <setting key="com.google.android.cellbroadcastreceiver" type="boolean" value="true" />
+    <setting key="com.google.android.cellbroadcastservice" type="boolean" value="true" />
+    <setting key="com.google.android.networkstack.tethering" type="boolean" value="true" />
+    <setting key="com.video.fun.app" type="boolean" value="true" />
+    <setting key="com.android.providers.downloads" type="boolean" value="true" />
+    <setting key="android.gps" type="boolean" value="true" />
+    <setting key="com.facebook.katana" type="boolean" value="true" />
+    <setting key="com.android.bluetooth.oplus.overlay" type="boolean" value="true" />
+    <setting key="com.android.bluetooth" type="boolean" value="true" />
+    <setting key="com.coloros.childrenspace" type="boolean" value="true" />
+    <setting key="com.oplus.locationproxy" type="boolean" value="true" />
+    <setting key="com.mediatek.lbs.em2.ui" type="boolean" value="true" />
+    <setting key="com.android.chrome" type="boolean" value="true" />
+    <setting key="com.android.providers.downloads.ui" type="boolean" value="true" />
+    <setting key="com.google.android.networkstack" type="boolean" value="true" />
+    <setting key="com.android.providers.media" type="boolean" value="true" />
+    <setting key="com.android.mtp" type="boolean" value="true" />
+    <setting key="com.facebook.services" type="boolean" value="true" />
+    <setting key="com.android.fmradio" type="boolean" value="true" />
+    <setting key="com.google.android.gsf" type="boolean" value="true" />
+  </mobile>
+  <screen_wifi />
+  <screen_other />
+  <roaming>
+    <setting key="com.google.android.apps.maps" type="boolean" value="true" />
+    <setting key="com.google.android.apps.tachyon" type="boolean" value="true" />
+    <setting key="com.oplus.beaconlink" type="boolean" value="true" />
+    <setting key="android.gps" type="boolean" value="true" />
+    <setting key="android.dns" type="boolean" value="true" />
+    <setting key="com.android.bluetoothmidiservice" type="boolean" value="true" />
+    <setting key="com.heytap.accessory" type="boolean" value="true" />
+    <setting key="com.android.bluetooth" type="boolean" value="true" />
+    <setting key="com.instagram.android" type="boolean" value="true" />
+    <setting key="com.instagram.barcelona" type="boolean" value="true" />
+    <setting key="com.facebook.appmanager" type="boolean" value="true" />
+    <setting key="com.facebook.services" type="boolean" value="true" />
+    <setting key="nobody" type="boolean" value="true" />
+    <setting key="com.google.android.captiveportallogin" type="boolean" value="true" />
+  </roaming>
+  <lockdown />
+  <apply />
+  <notify />
+  <filter>
+    <rule pkg="com.google.android.gms" version="6" protocol="6" daddr="android.googleapis.com" dport="443" time="1753910759674" block="1" />
+    <rule pkg="com.google.android.gsf" version="6" protocol="6" daddr="android.googleapis.com" dport="443" time="1753910759674" block="1" />
+    <rule pkg="com.coloros.phonemanager" version="4" protocol="6" daddr="acdn.adnxs.com" dport="443" time="1753180719621" block="1" />
+    <rule pkg="com.coloros.phonemanager" version="4" protocol="6" daddr="obus-sg.dc.heytapmobile.com" dport="443" time="1753910763247" block="1" />
+    <rule pkg="com.coloros.phonemanager" version="4" protocol="17" daddr="pool.ntp.org" dport="123" time="1753737409053" block="1" />
+    <rule pkg="com.coloros.phonemanager" version="4" protocol="17" daddr="time.android.com" dport="123" time="1753737403964" block="1" />
+    <rule pkg="com.coloros.phonemanager" version="6" protocol="6" daddr="mdp-appconf-gh.heytapdl.com" dport="443" time="1753650576670" block="1" />
+    <rule pkg="com.coloros.phonemanager" version="6" protocol="6" daddr="mdp-appconf-sa.heytapdl.com" dport="443" time="1752872560829" block="1" />
+    <rule pkg="com.facebook.services" version="4" protocol="6" daddr="157.240.29.33" dport="443" time="1751837259675" block="1" />
+    <rule pkg="com.facebook.services" version="4" protocol="6" daddr="api.facebook.com" dport="443" time="1752280801978" block="1" />
+    <rule pkg="com.facebook.services" version="4" protocol="6" daddr="graph.facebook.com" dport="443" time="1753650553112" block="1" />
+    <rule pkg="com.facebook.services" version="4" protocol="6" daddr="z-m-gateway.facebook.com" dport="443" time="1753910764014" block="1" />
+    <rule pkg="com.facebook.services" version="6" protocol="6" daddr="2a03:2880:f179:81:face:b00c:0:4c63" dport="443" time="1751837259673" block="1" />
+    <rule pkg="com.facebook.services" version="6" protocol="6" daddr="api.facebook.com" dport="443" time="1752280811964" block="1" />
+    <rule pkg="com.facebook.services" version="6" protocol="6" daddr="graph.facebook.com" dport="443" time="1753650583320" block="1" />
+    <rule pkg="com.facebook.services" version="6" protocol="6" daddr="z-m-gateway.facebook.com" dport="443" time="1753910764268" block="1" />
+    <rule pkg="com.facebook.appmanager" version="4" protocol="6" daddr="api.facebook.com" dport="443" time="1752281447610" block="1" />
+    <rule pkg="com.facebook.appmanager" version="4" protocol="6" daddr="graph.facebook.com" dport="443" time="1753219787536" block="1" />
+    <rule pkg="com.facebook.appmanager" version="6" protocol="6" daddr="api.facebook.com" dport="443" time="1752281465463" block="1" />
+    <rule pkg="com.facebook.appmanager" version="6" protocol="6" daddr="graph.facebook.com" dport="443" time="1753219817739" block="1" />
+    <rule pkg="com.google.android.apps.tachyon" version="6" protocol="6" daddr="2a00:1450:4006:811::2004" dport="443" time="1751832420254" block="1" />
+    <rule pkg="com.google.android.apps.tachyon" version="6" protocol="6" daddr="www.google.com" dport="443" time="1753290710131" block="1" />
+    <rule pkg="com.google.android.apps.tachyon" version="6" protocol="17" daddr="www.google.com" dport="443" time="1753278005704" block="1" />
+    <rule pkg="com.netflix.mediaclient" version="4" protocol="6" daddr="android-anycast.prod.ftl.netflix.com" dport="443" time="1753131328931" block="1" />
+    <rule pkg="com.netflix.mediaclient" version="4" protocol="6" daddr="android.prod.cloud.netflix.com" dport="443" time="1753131339959" block="1" />
+    <rule pkg="com.netflix.mediaclient" version="4" protocol="6" daddr="android.prod.ftl.netflix.com" dport="443" time="1753180845567" block="1" />
+    <rule pkg="com.netflix.mediaclient" version="4" protocol="6" daddr="android15.appboot.netflix.com" dport="443" time="1753180845000" block="1" />
+    <rule pkg="com.netflix.mediaclient" version="6" protocol="6" daddr="android.prod.cloud.netflix.com" dport="443" time="1753131340876" block="1" />
+    <rule pkg="com.netflix.mediaclient" version="6" protocol="6" daddr="android.prod.ftl.netflix.com" dport="443" time="1753180845264" block="1" />
+    <rule pkg="com.netflix.mediaclient" version="6" protocol="6" daddr="logs.netflix.com" dport="443" time="1753131339727" block="1" />
+    <rule pkg="com.instagram.android" version="4" protocol="6" daddr="157.240.195.175" dport="443" time="1753877055433" block="1" />
+    <rule pkg="com.instagram.android" version="4" protocol="6" daddr="57.144.132.36" dport="80" time="1753794900362" block="1" />
+    <rule pkg="com.instagram.android" version="4" protocol="6" daddr="gateway.instagram.com" dport="443" time="1753969095108" block="1" />
+    <rule pkg="com.instagram.android" version="4" protocol="6" daddr="graph.facebook.com" dport="443" time="1753847823762" block="1" />
+    <rule pkg="com.instagram.android" version="4" protocol="6" daddr="graph.instagram.com" dport="443" time="1753390829036" block="1" />
+    <rule pkg="com.instagram.android" version="4" protocol="6" daddr="i-fallback.instagram.com" dport="443" time="1753968899491" block="1" />
+    <rule pkg="com.instagram.android" version="4" protocol="6" daddr="i.instagram.com" dport="443" time="1753969095684" block="1" />
+    <rule pkg="com.instagram.android" version="4" protocol="17" daddr="gateway.instagram.com" dport="443" time="1753969091749" block="1" />
+    <rule pkg="com.instagram.android" version="4" protocol="17" daddr="graph.facebook.com" dport="443" time="1753820013059" block="1" />
+    <rule pkg="com.instagram.android" version="6" protocol="6" daddr="edge-mqtt-fallback.facebook.com" dport="443" time="1753968900003" block="1" />
+    <rule pkg="com.instagram.android" version="6" protocol="6" daddr="graph.facebook.com" dport="443" time="1753847823507" block="1" />
+    <rule pkg="com.instagram.android" version="6" protocol="6" daddr="graph.instagram.com" dport="443" time="1753390828881" block="1" />
+    <rule pkg="com.instagram.android" version="6" protocol="6" daddr="i-fallback.instagram.com" dport="443" time="1753968899235" block="1" />
+    <rule pkg="com.instagram.android" version="6" protocol="17" daddr="graph.instagram.com" dport="443" time="1753389292140" block="1" />
+    <rule pkg="com.instagram.android" version="6" protocol="17" daddr="i-fallback.instagram.com" dport="443" time="1753968891954" block="1" />
+    <rule pkg="com.instagram.android" version="6" protocol="17" daddr="i.instagram.com" dport="443" time="1753969094332" block="1" />
+    <rule pkg="com.video.fun.app" version="4" protocol="6" daddr="47.241.64.8" dport="443" time="1753967068579" block="1" />
+    <rule pkg="com.video.fun.app" version="4" protocol="6" daddr="47.241.66.32" dport="443" time="1753967128485" block="1" />
+    <rule pkg="com.video.fun.app" version="4" protocol="6" daddr="74.125.68.113" dport="80" time="1752964612188" block="1" />
+    <rule pkg="com.video.fun.app" version="4" protocol="6" daddr="analytics.rayjump.com" dport="443" time="1752873048759" block="1" />
+    <rule pkg="com.video.fun.app" version="4" protocol="6" daddr="android.clients.google.com" dport="80" time="1753219817320" block="1" />
+    <rule pkg="com.video.fun.app" version="4" protocol="6" daddr="app-measurement.com" dport="80" time="1752967284414" block="1" />
+    <rule pkg="com.video.fun.app" version="6" protocol="6" daddr="android.apis.google.com" dport="80" time="1753859764641" block="1" />
+    <rule pkg="com.video.fun.app" version="6" protocol="6" daddr="app-measurement.com" dport="80" time="1753130756816" block="1" />
+    <rule pkg="com.video.fun.app" version="6" protocol="6" daddr="app-measurement.com" dport="443" time="1752873149109" block="1" />
+    <rule pkg="com.video.fun.app" version="6" protocol="6" daddr="www.youtube.com" dport="80" time="1752951610666" block="1" />
+    <rule pkg="com.instagram.barcelona" version="4" protocol="6" daddr="i.instagram.com" dport="443" time="1753969284814" block="1" />
+    <rule pkg="com.instagram.barcelona" version="6" protocol="6" daddr="graph.instagram.com" dport="443" time="1753302927864" block="1" />
+    <rule pkg="com.instagram.barcelona" version="6" protocol="6" daddr="i.instagram.com" dport="443" time="1753969284676" block="1" />
+    <rule pkg="com.instagram.barcelona" version="6" protocol="17" daddr="i.instagram.com" dport="443" time="1753969281426" block="1" />
+  </filter>
+  <forward />
+</netguard>
